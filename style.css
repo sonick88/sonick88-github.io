@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+ font-family: adobe garamond pro;
+ src: url('agaramondpro-regular.eot')
+}
+
+body { 
+	background-color: #fafaf0;
+	height: 100%;
+	margin: 0px;
+	} 
+
+html {
+	height: 100%;
+}
+	
+.panel { 
+	height: 1500px;
+	border: 0px solid #cccccc;
+	} 
+
+ul#nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(240,240,240,0.6);
+	list-style: none;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+ul#nav li {
+font-family: 'adobe garamond pro', garamond, times new roman, Sans; 
+	display: inline;
+	margin: 0px 20px;
+	opacity: 1.0;
+	font-size: 170%;
+	letter-spacing: 0.04em;
+}
+
+ul#nav li a {
+	color: #666666;
+	text-decoration: none;
+}
+
+ul#nav li a:hover {
+	border-bottom: 1px solid #cccccc;
+}
+
+h1 {
+font-family: 'adobe garamond pro', garamond, times new roman, Sans; 
+font-size:220%;
+font-weight:normal;
+line-height:110%;
+color: #999999;
+border-top: 1px solid #cccccc;
+border-bottom: 1px solid #cccccc;
+padding: 25px;
+}
+
+.content {
+	border: 0px solid #cccccc;
+	padding-top: 250px;
+	width: 700px; text-align: center; margin: auto auto;
+}

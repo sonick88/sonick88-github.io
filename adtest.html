@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DoubleClick Test</title>
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/146321580/chl', [250, 250], 'div-gpt-ad-1430586342680-0').addService(googletag.pubads());
+    googletag.defineSlot('/146321580/chl-leader', [728, 90], 'div-gpt-ad-1430586342680-1').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+</head>
+
+<body>
+<p>Box Ad goes here</p>
+<!-- /146321580/chl -->
+<div id='div-gpt-ad-1430586342680-0' style='height:250px; width:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1430586342680-0'); });
+</script>
+</div>
+<p>Banner Ad goes here</p>
+<!-- /146321580/chl-leader -->
+<div id='div-gpt-ad-1430586342680-1' style='height:90px; width:728px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1430586342680-1'); });
+</script>
+</div>
+</body>
+</html>
